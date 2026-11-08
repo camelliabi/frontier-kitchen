@@ -1,0 +1,2565 @@
+{
+  "scope": "Breath of the Wild; pot cooking only",
+  "source": "https://github.com/leoetlino/botw/blob/master/Cooking/CookData.yml",
+  "engine_reference": "https://github.com/zeldaret/botw/blob/master/src/Game/Cooking/cookManager.cpp",
+  "version_note": "Public parameter dump; engine reference targets Switch 1.5.0; CNzh/USen text dump identifies itself as 1.6.0. Not a binary equivalence certification.",
+  "Recipes": [
+    {
+      "order": 0,
+      "result_id": "Item_Cook_C_16",
+      "actors": [
+        [
+          "Animal_Insect_F"
+        ]
+      ],
+      "tags": [
+        [
+          "CookOre"
+        ],
+        [
+          "CookInsect"
+        ],
+        [
+          "CookEnemy"
+        ]
+      ],
+      "HB": -12,
+      "TB": 0
+    },
+    {
+      "order": 1,
+      "result_id": "Item_Cook_C_16",
+      "actors": [
+        [
+          "Animal_Insect_F"
+        ]
+      ],
+      "tags": [
+        [
+          "CookInsect"
+        ],
+        [
+          "CookEnemy"
+        ]
+      ],
+      "HB": -12,
+      "TB": 0
+    },
+    {
+      "order": 2,
+      "result_id": "Item_Cook_C_16",
+      "actors": [
+        [
+          "Animal_Insect_F"
+        ]
+      ],
+      "tags": [
+        [
+          "CookOre",
+          "CookEnemy",
+          "CookInsect"
+        ]
+      ],
+      "HB": -12,
+      "TB": 0
+    },
+    {
+      "order": 3,
+      "result_id": "Item_Cook_O_02",
+      "actors": [],
+      "tags": [
+        [
+          "CookOre"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 4,
+      "result_id": "Item_Cook_C_17",
+      "actors": [],
+      "tags": [
+        [
+          "CookEnemy"
+        ],
+        [
+          "CookInsect"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 5,
+      "result_id": "Item_Cook_O_01",
+      "actors": [],
+      "tags": [
+        [
+          "CookEnemy",
+          "CookInsect"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 6,
+      "result_id": "Item_Cook_N_02",
+      "actors": [
+        [
+          "Item_Fruit_A",
+          "Item_Fruit_B"
+        ],
+        [
+          "Item_Fruit_B",
+          "Item_Fruit_C",
+          "Item_Fruit_F",
+          "Item_Fruit_H",
+          "Item_Fruit_D",
+          "Item_Fruit_G",
+          "Item_Fruit_A"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [],
+      "HB": 4,
+      "TB": 0
+    },
+    {
+      "order": 7,
+      "result_id": "Item_Cook_N_01",
+      "actors": [
+        [
+          "Item_FishGet_F",
+          "Item_FishGet_G"
+        ],
+        [
+          "Item_FishGet_K"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 8,
+      "TB": 0
+    },
+    {
+      "order": 8,
+      "result_id": "Item_Cook_L_05",
+      "actors": [
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ],
+        [
+          "Item_Material_08"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 9,
+      "result_id": "Item_Cook_L_04",
+      "actors": [
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_08"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 10,
+      "result_id": "Item_Cook_L_03",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_01"
+        ],
+        [
+          "Item_Material_08"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 11,
+      "result_id": "Item_Cook_L_02",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_08"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 12,
+      "result_id": "Item_Cook_L_01",
+      "actors": [
+        [
+          "Item_Material_08"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ],
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 13,
+      "result_id": "Item_Cook_F_04",
+      "actors": [
+        [
+          "Item_PlantGet_B",
+          "Item_PlantGet_C"
+        ],
+        [
+          "Item_Fruit_C"
+        ],
+        [
+          "Item_Fruit_F"
+        ],
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 14,
+      "result_id": "Item_Cook_K_04",
+      "actors": [
+        [
+          "Item_FishGet_K"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 15,
+      "result_id": "Item_Cook_K_03",
+      "actors": [
+        [
+          "Item_Fruit_J"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 16,
+      "result_id": "Item_Cook_K_05",
+      "actors": [
+        [
+          "Item_Meat_11",
+          "Item_Meat_12"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 17,
+      "result_id": "Item_Cook_K_02",
+      "actors": [
+        [
+          "Item_Meat_02",
+          "Item_Meat_07"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 18,
+      "result_id": "Item_Cook_K_01",
+      "actors": [
+        [
+          "Item_Meat_01",
+          "Item_Meat_06"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 19,
+      "result_id": "Item_Cook_J_09",
+      "actors": [
+        [
+          "Item_Meat_11"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 20,
+      "result_id": "Item_Cook_J_08",
+      "actors": [
+        [
+          "Item_Meat_12"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 21,
+      "result_id": "Item_Cook_J_07",
+      "actors": [
+        [
+          "Item_Meat_02"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 22,
+      "result_id": "Item_Cook_J_05",
+      "actors": [
+        [
+          "Item_Meat_07"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 23,
+      "result_id": "Item_Cook_J_06",
+      "actors": [
+        [
+          "Item_Meat_01"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 24,
+      "result_id": "Item_Cook_J_04",
+      "actors": [
+        [
+          "Item_Meat_06"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 25,
+      "result_id": "Item_Cook_J_03",
+      "actors": [
+        [
+          "Item_FishGet_K",
+          "Item_FishGet_F",
+          "Item_FishGet_G"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 26,
+      "result_id": "Item_Cook_J_02",
+      "actors": [
+        [
+          "Item_Fruit_J",
+          "Item_PlantGet_M",
+          "Item_PlantGet_Q"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 27,
+      "result_id": "Item_Cook_I_06",
+      "actors": [
+        [
+          "Item_Fruit_J"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_01"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 28,
+      "result_id": "Item_Cook_I_05",
+      "actors": [
+        [
+          "Item_PlantGet_M",
+          "Item_PlantGet_Q"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_01"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 29,
+      "result_id": "Item_Cook_I_11",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_01"
+        ],
+        [
+          "Item_Fruit_B"
+        ]
+      ],
+      "tags": [],
+      "HB": 16,
+      "TB": 0
+    },
+    {
+      "order": 30,
+      "result_id": "Item_Cook_I_17",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_01"
+        ],
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [],
+      "HB": 4,
+      "TB": 0
+    },
+    {
+      "order": 31,
+      "result_id": "Item_Cook_I_10",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 32,
+      "result_id": "Item_Cook_I_02",
+      "actors": [
+        [
+          "Item_Fruit_A"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 33,
+      "result_id": "Item_Cook_I_12",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_01"
+        ],
+        [
+          "Item_Fruit_L",
+          "Item_Fruit_K"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 34,
+      "result_id": "Item_Cook_I_03",
+      "actors": [
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 35,
+      "result_id": "Item_Cook_I_14",
+      "actors": [
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 36,
+      "result_id": "Item_Cook_I_13",
+      "actors": [
+        [
+          "Item_Fruit_H"
+        ],
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 37,
+      "result_id": "Item_Cook_I_01",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_01"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 38,
+      "result_id": "Item_Cook_I_04",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 39,
+      "result_id": "Item_Cook_I_15",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 40,
+      "result_id": "Item_Cook_H_03",
+      "actors": [
+        [
+          "Item_FishGet_I"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_07"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 41,
+      "result_id": "Item_Cook_G_14",
+      "actors": [
+        [
+          "Item_FishGet_I"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 42,
+      "result_id": "Item_Cook_G_17",
+      "actors": [
+        [
+          "Item_InsectGet_K",
+          "Item_InsectGet_O",
+          "Item_InsectGet_Z"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 43,
+      "result_id": "Item_Cook_G_13",
+      "actors": [
+        [
+          "Item_Fruit_J",
+          "Item_PlantGet_M",
+          "Item_PlantGet_Q"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 44,
+      "result_id": "Item_Cook_G_12",
+      "actors": [
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 45,
+      "result_id": "Item_Cook_K_06",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 46,
+      "result_id": "Item_Cook_F_03",
+      "actors": [
+        [
+          "Item_Fruit_J",
+          "Item_PlantGet_M",
+          "Item_PlantGet_Q"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 47,
+      "result_id": "Item_Cook_F_01",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 48,
+      "result_id": "Item_Cook_F_02",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 49,
+      "result_id": "Item_Cook_K_07",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 50,
+      "result_id": "Item_Cook_K_08",
+      "actors": [
+        [
+          "Item_PlantGet_M",
+          "Item_PlantGet_Q"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_05"
+        ],
+        [
+          "Item_Material_07"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 51,
+      "result_id": "Item_Cook_N_04",
+      "actors": [
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Ore_H"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 52,
+      "result_id": "Item_Cook_G_16",
+      "actors": [
+        [
+          "Item_InsectGet_K",
+          "Item_InsectGet_O",
+          "Item_InsectGet_Z"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 53,
+      "result_id": "Item_Cook_E_03",
+      "actors": [
+        [
+          "Item_Meat_12"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 54,
+      "result_id": "Item_Cook_E_02",
+      "actors": [
+        [
+          "Item_Meat_07"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 55,
+      "result_id": "Item_Cook_E_01",
+      "actors": [
+        [
+          "Item_Meat_06"
+        ],
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 56,
+      "result_id": "Item_Cook_N_03",
+      "actors": [
+        [
+          "Item_Material_04"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 57,
+      "result_id": "Item_Cook_H_02",
+      "actors": [
+        [
+          "Item_FishGet_F",
+          "Item_FishGet_G"
+        ],
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_07"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 58,
+      "result_id": "Item_Cook_H_01",
+      "actors": [
+        [
+          "Item_Material_06"
+        ],
+        [
+          "Item_Material_07"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 59,
+      "result_id": "Item_Cook_G_10",
+      "actors": [
+        [
+          "Item_FishGet_K",
+          "Item_FishGet_F",
+          "Item_FishGet_G"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 60,
+      "result_id": "Item_Cook_G_11",
+      "actors": [
+        [
+          "Item_Material_02"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 61,
+      "result_id": "Item_Cook_G_09",
+      "actors": [
+        [
+          "Item_Meat_11"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 62,
+      "result_id": "Item_Cook_G_06",
+      "actors": [
+        [
+          "Item_Meat_02"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 63,
+      "result_id": "Item_Cook_G_05",
+      "actors": [
+        [
+          "Item_Meat_01"
+        ],
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 64,
+      "result_id": "Item_Cook_E_04",
+      "actors": [
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_04"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 65,
+      "result_id": "Item_Cook_G_15",
+      "actors": [
+        [
+          "Item_Material_03"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 66,
+      "result_id": "Item_Cook_G_02",
+      "actors": [
+        [
+          "Item_Material_03"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 67,
+      "result_id": "Item_Cook_G_04",
+      "actors": [
+        [
+          "Item_Material_03"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 68,
+      "result_id": "Item_Cook_G_03",
+      "actors": [
+        [
+          "Item_Material_03"
+        ]
+      ],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 69,
+      "result_id": "Item_Cook_I_07",
+      "actors": [
+        [
+          "Item_Fruit_A"
+        ],
+        [
+          "Item_Material_06"
+        ]
+      ],
+      "tags": [],
+      "HB": 4,
+      "TB": 0
+    },
+    {
+      "order": 70,
+      "result_id": "Item_Cook_B_20",
+      "actors": [
+        [
+          "Item_Fruit_J"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 71,
+      "result_id": "Item_Cook_A_12",
+      "actors": [
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 72,
+      "result_id": "Item_Cook_A_13",
+      "actors": [
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 73,
+      "result_id": "Item_Cook_A_11",
+      "actors": [
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 74,
+      "result_id": "Item_Cook_A_14",
+      "actors": [
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 75,
+      "result_id": "Item_Cook_J_01",
+      "actors": [
+        [
+          "Item_Material_03"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 76,
+      "result_id": "Item_Cook_I_08",
+      "actors": [
+        [
+          "Item_Fruit_A"
+        ],
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 77,
+      "result_id": "Item_Cook_I_09",
+      "actors": [
+        [
+          "BeeHome"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 78,
+      "result_id": "Item_Cook_P_05",
+      "actors": [
+        [
+          "Item_Meat_11"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 79,
+      "result_id": "Item_Cook_P_04",
+      "actors": [
+        [
+          "Item_Meat_02"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 80,
+      "result_id": "Item_Cook_P_03",
+      "actors": [
+        [
+          "Item_Meat_01"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 81,
+      "result_id": "Item_Cook_P_01",
+      "actors": [
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 82,
+      "result_id": "Item_Cook_P_02",
+      "actors": [
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 83,
+      "result_id": "Item_Cook_D_06",
+      "actors": [
+        [
+          "Item_Meat_11",
+          "Item_Meat_12"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 84,
+      "result_id": "Item_Cook_D_05",
+      "actors": [
+        [
+          "Item_Meat_07",
+          "Item_Meat_02"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 85,
+      "result_id": "Item_Cook_D_04",
+      "actors": [
+        [
+          "Item_Meat_01",
+          "Item_Meat_06"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 86,
+      "result_id": "Item_Cook_D_10",
+      "actors": [
+        [
+          "Item_InsectGet_K",
+          "Item_InsectGet_O",
+          "Item_InsectGet_Z"
+        ],
+        [
+          "Item_Material_02"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 87,
+      "result_id": "Item_Cook_D_09",
+      "actors": [
+        [
+          "Item_InsectGet_K",
+          "Item_InsectGet_O",
+          "Item_InsectGet_Z"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 88,
+      "result_id": "Item_Cook_D_03",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 89,
+      "result_id": "Item_Cook_M_01",
+      "actors": [
+        [
+          "Item_Material_07"
+        ],
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 90,
+      "result_id": "Item_Cook_D_02",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 91,
+      "result_id": "Item_Cook_D_01",
+      "actors": [
+        [
+          "Item_Ore_H"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 92,
+      "result_id": "Item_Cook_B_16",
+      "actors": [],
+      "tags": [
+        [
+          "CookMeat"
+        ],
+        [
+          "CookMeat"
+        ],
+        [
+          "CookMeat"
+        ],
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 93,
+      "result_id": "Item_Cook_B_11",
+      "actors": [],
+      "tags": [
+        [
+          "CookVegetable",
+          "CookPlant"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 94,
+      "result_id": "Item_Cook_B_12",
+      "actors": [],
+      "tags": [
+        [
+          "CookFruit"
+        ],
+        [
+          "CookFruit"
+        ],
+        [
+          "CookFruit"
+        ],
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 95,
+      "result_id": "Item_Cook_B_13",
+      "actors": [],
+      "tags": [
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 96,
+      "result_id": "Item_Cook_B_15",
+      "actors": [],
+      "tags": [
+        [
+          "CookFish"
+        ],
+        [
+          "CookFish"
+        ],
+        [
+          "CookFish"
+        ],
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 97,
+      "result_id": "Item_Cook_B_06",
+      "actors": [],
+      "tags": [
+        [
+          "CookMeat"
+        ],
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 98,
+      "result_id": "Item_Cook_B_02",
+      "actors": [],
+      "tags": [
+        [
+          "CookFruit"
+        ],
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 99,
+      "result_id": "Item_Cook_A_01",
+      "actors": [],
+      "tags": [
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 100,
+      "result_id": "Item_Cook_B_01",
+      "actors": [],
+      "tags": [
+        [
+          "CookVegetable",
+          "CookPlant"
+        ],
+        [
+          "CookVegetable",
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 101,
+      "result_id": "Item_Cook_B_19",
+      "actors": [
+        [
+          "Item_Meat_11",
+          "Item_Meat_12"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 102,
+      "result_id": "Item_Cook_B_18",
+      "actors": [
+        [
+          "Item_Meat_02",
+          "Item_Meat_07"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 103,
+      "result_id": "Item_Cook_B_17",
+      "actors": [],
+      "tags": [
+        [
+          "CookMeat"
+        ],
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 104,
+      "result_id": "Item_Cook_D_07",
+      "actors": [
+        [
+          "Item_Fruit_I"
+        ]
+      ],
+      "tags": [
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 105,
+      "result_id": "Item_Cook_D_08",
+      "actors": [
+        [
+          "Item_Fruit_I"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 106,
+      "result_id": "Item_Cook_B_23",
+      "actors": [
+        [
+          "Item_FishGet_K",
+          "Item_FishGet_M",
+          "Item_InsectGet_K",
+          "Item_InsectGet_O",
+          "Item_InsectGet_Z"
+        ]
+      ],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 107,
+      "result_id": "Item_Cook_B_05",
+      "actors": [],
+      "tags": [
+        [
+          "CookFish"
+        ],
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 108,
+      "result_id": "Item_Cook_A_05",
+      "actors": [],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ],
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 109,
+      "result_id": "Item_Cook_A_04",
+      "actors": [],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ],
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 110,
+      "result_id": "Item_Cook_A_02",
+      "actors": [],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ],
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 111,
+      "result_id": "Item_Cook_A_03",
+      "actors": [],
+      "tags": [
+        [
+          "CookPlant",
+          "CookVegetable"
+        ],
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 112,
+      "result_id": "Item_Cook_A_08",
+      "actors": [],
+      "tags": [
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 113,
+      "result_id": "Item_Cook_A_09",
+      "actors": [],
+      "tags": [
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 114,
+      "result_id": "Item_Cook_A_07",
+      "actors": [],
+      "tags": [
+        [
+          "CookMushroom"
+        ],
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 115,
+      "result_id": "Item_Cook_B_06",
+      "actors": [],
+      "tags": [
+        [
+          "CookMeat"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 116,
+      "result_id": "Item_Cook_B_23",
+      "actors": [
+        [
+          "Item_FishGet_K",
+          "Item_FishGet_M",
+          "Item_InsectGet_K",
+          "Item_InsectGet_O",
+          "Item_InsectGet_Z"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 117,
+      "result_id": "Item_Cook_B_05",
+      "actors": [],
+      "tags": [
+        [
+          "CookFish"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 118,
+      "result_id": "Item_Cook_A_10",
+      "actors": [
+        [
+          "Item_Material_04"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 119,
+      "result_id": "Item_Cook_K_09",
+      "actors": [
+        [
+          "Item_Material_05"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 120,
+      "result_id": "Item_Cook_A_01",
+      "actors": [],
+      "tags": [
+        [
+          "CookMushroom"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 121,
+      "result_id": "Item_Cook_B_01",
+      "actors": [],
+      "tags": [
+        [
+          "CookPlant"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 122,
+      "result_id": "Item_Cook_B_02",
+      "actors": [],
+      "tags": [
+        [
+          "CookFruit"
+        ]
+      ],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 123,
+      "result_id": "Item_Cook_B_22",
+      "actors": [
+        [
+          "Item_Fruit_K"
+        ],
+        [
+          "Item_Fruit_L"
+        ]
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0
+    },
+    {
+      "order": 124,
+      "result_id": "Item_Cook_C_16",
+      "actors": [
+        [
+          "Animal_Insect_F"
+        ]
+      ],
+      "tags": [],
+      "HB": -12,
+      "TB": 0
+    }
+  ],
+  "SingleRecipes": [
+    {
+      "order": 0,
+      "result_id": "Item_Cook_C_16",
+      "actors": [
+        "Animal_Insect_F"
+      ],
+      "tags": [],
+      "HB": -12,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 1,
+      "result_id": "Item_Cook_O_02",
+      "actors": [],
+      "tags": [
+        "CookOre"
+      ],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 2,
+      "result_id": "Item_Cook_B_21",
+      "actors": [
+        "Item_Fruit_I"
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 3,
+      "result_id": "Item_Cook_A_10",
+      "actors": [
+        "Item_Material_04"
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 4,
+      "result_id": "Item_Cook_B_06",
+      "actors": [],
+      "tags": [
+        "CookMeat"
+      ],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 5,
+      "result_id": "Item_Cook_B_23",
+      "actors": [
+        "Item_FishGet_K",
+        "Item_FishGet_M",
+        "Item_InsectGet_K",
+        "Item_InsectGet_O",
+        "Item_InsectGet_Z"
+      ],
+      "tags": [],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 6,
+      "result_id": "Item_Cook_B_05",
+      "actors": [],
+      "tags": [
+        "CookFish"
+      ],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 7,
+      "result_id": "Item_Cook_A_01",
+      "actors": [],
+      "tags": [
+        "CookMushroom"
+      ],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 8,
+      "result_id": "Item_Cook_I_16",
+      "actors": [
+        "BeeHome"
+      ],
+      "tags": [],
+      "HB": -8,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 9,
+      "result_id": "Item_Cook_B_22",
+      "actors": [
+        "Item_Fruit_K",
+        "Item_Fruit_L"
+      ],
+      "tags": [],
+      "HB": -2,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 10,
+      "result_id": "Item_Cook_K_09",
+      "actors": [
+        "Item_Material_05"
+      ],
+      "tags": [],
+      "HB": 2,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 11,
+      "result_id": "Item_Cook_B_01",
+      "actors": [],
+      "tags": [
+        "CookPlant"
+      ],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    },
+    {
+      "order": 12,
+      "result_id": "Item_Cook_B_02",
+      "actors": [],
+      "tags": [
+        "CookFruit"
+      ],
+      "HB": 0,
+      "TB": 0,
+      "Num": 1
+    }
+  ],
+  "System": {
+    "CEI": [
+      {
+        "BT": 0,
+        "MR": 1.399999976158142,
+        "Ma": 15,
+        "Mi": 1,
+        "SSA": 2,
+        "T": 3663771853,
+        "effect_id": "ExGutsMaxUp"
+      },
+      {
+        "BT": 0,
+        "MR": 0.5,
+        "Ma": 20,
+        "Mi": 1,
+        "SSA": 2,
+        "T": 2930788100,
+        "effect_id": "GutsRecover"
+      },
+      {
+        "BT": 0,
+        "MR": 2,
+        "Ma": 120,
+        "Mi": 1,
+        "SSA": 12,
+        "T": 2316063776,
+        "effect_id": "LifeRecover"
+      },
+      {
+        "BT": 0,
+        "MR": 1,
+        "Ma": 108,
+        "Mi": 4,
+        "SSA": 4,
+        "T": 1334203712,
+        "effect_id": "LifeMaxUp"
+      },
+      {
+        "BT": 120,
+        "MR": 0.3499999940395355,
+        "Ma": 2,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 1098314820,
+        "effect_id": "ResistHot"
+      },
+      {
+        "BT": 120,
+        "MR": 0.3499999940395355,
+        "Ma": 2,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 3157763817,
+        "effect_id": "ResistCold"
+      },
+      {
+        "BT": 120,
+        "MR": 0.5,
+        "Ma": 3,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 3021101780,
+        "effect_id": "ResistElectric"
+      },
+      {
+        "BT": 30,
+        "MR": 0.44999998807907104,
+        "Ma": 3,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 3153121861,
+        "effect_id": "MovingSpeed"
+      },
+      {
+        "BT": 20,
+        "MR": 0.44999998807907104,
+        "Ma": 3,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 1443585033,
+        "effect_id": "AttackUp"
+      },
+      {
+        "BT": 20,
+        "MR": 0.44999998807907104,
+        "Ma": 3,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 3414038772,
+        "effect_id": "DefenseUp"
+      },
+      {
+        "BT": 90,
+        "MR": 0.3499999940395355,
+        "Ma": 3,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 1965985015,
+        "effect_id": "Quietness"
+      },
+      {
+        "BT": 120,
+        "MR": 0.30000001192092896,
+        "Ma": 2,
+        "Mi": 1,
+        "SSA": 1,
+        "T": 2586852760,
+        "effect_id": "Fireproof"
+      }
+    ],
+    "FA": "Item_Cook_O_01",
+    "FALR": 4,
+    "FALRMR": 1,
+    "FCA": "Item_Cook_C_16",
+    "LRMR": 2,
+    "MEA": "Item_Material_08",
+    "NMMR": [
+      1.5,
+      1.7999999523162842,
+      2.0999999046325684,
+      2.4000000953674316,
+      2.799999952316284
+    ],
+    "NMSSR": [
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "SFALR": 1,
+    "SSAET": 300
+  }
+}
